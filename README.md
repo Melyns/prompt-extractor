@@ -6,9 +6,9 @@ Simple python script for extracting prompts from images generated with ForgeUI o
 
 ## Usage
 
-1. [Download](https://github.com/Melyns/prompt-extractor/archive/refs/heads/main.zip) and place `prompt-extractor.py` in the directory containing your images.  (Example: `C:\Users\User\Pictures\WebUI`)
+1. [Download](https://github.com/Melyns/prompt-extractor/archive/refs/heads/main.zip) and place `prompt-extractor.py` in the directory containing your images.  (Example: `D:\AI\Images\Forge`)
 
-2. Open a terminal or command prompt in that directory.  (Example: `cd C:\Users\User\Pictures\WebUI`)
+2. Open a terminal or command prompt in that directory.  (Example: `cd D:\AI\Images\Forge`)
 
 3. Run the script with the following command:
    ```bash
