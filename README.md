@@ -2,7 +2,7 @@
 
 Simple python script for extracting prompts from images generated with ForgeUI or A1111.
 
-**Important**: Only works with images that were saved as .png format
+**Important**: Only works with images that were saved as .png format. Only works with unmodified image outputs. Meaning if you postprocess an image in external software, the metadata will be lost & this script won't function. 
 
 ## Usage
 
