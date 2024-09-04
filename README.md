@@ -12,7 +12,7 @@ Simple python script for extracting prompts from images generated with ForgeUI o
 
 3. Run the script with the following command:
    ```bash
-   python ./prompt-extractor.py
+   python .\prompt-extractor.py
    
 It will create a subfolder & dump all the prompts there with file name matching the original image.
 
