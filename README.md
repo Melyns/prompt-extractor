@@ -2,6 +2,8 @@
 
 Simple python script for extracting prompts from images generated with ForgeUI or A1111.
 
+**Important**: Only works with images that were saved as .png format
+
 ## Usage
 
 1. Place `prompt-extractor.py` in the directory containing your images.  (Example: `C:\Users\User\Pictures\WebUI`)
@@ -11,7 +13,8 @@ Simple python script for extracting prompts from images generated with ForgeUI o
 3. Run the script with the following command:
    ```bash
    python ./prompt-extractor.py
-4. Done
+   
+It will create a subfolder & dump all the prompts there with file name matching the original image.
 
 ## How it works
-This script reads each image file, extracts the prompt text from its metadata, and cleans it by removing any unwanted characters and tags. Then it saves the extracted prompts as .txt files in a subfolder named Prompts.
+This script reads each .png image file, extracts the prompt text from its metadata, and cleans it by removing any unwanted characters and tags. Then it saves the extracted prompts as .txt files in a subfolder named Prompts.
